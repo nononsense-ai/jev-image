@@ -9,3 +9,9 @@ wheels/
 # Virtual environments
 .venv
 .env
+docs/
+audio/
+props/
+tools/
+icon/
+.DS_Store/
