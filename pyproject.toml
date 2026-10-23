@@ -1,0 +1,15 @@
+[project]
+name = "jev-multi-modality"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [{ name = "kaushik m", email = "kaushikam@gmail.com" }]
+requires-python = ">=3.14"
+dependencies = ["pillow>=13.0.0", "python-dotenv>=1.2.4", "typesafe-sdk>=0.7.5"]
+
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "jev"
